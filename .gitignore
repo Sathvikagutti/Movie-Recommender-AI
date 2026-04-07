@@ -1,0 +1,17 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large AI Data (Keep these local to save GitHub space)
+ai_service/*.pkl
+ai_service/*.csv
+
+# Local environment variables
+.env
+backend/node_modules/
+frontend/node_modules/
